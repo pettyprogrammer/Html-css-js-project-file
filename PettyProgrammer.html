@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="PettyProgrammer.css" />
+    <link rel="stylesheet" href="fontawesome/css/all.css" />
+    <title>Awesome calculator</title>
+  </head>
+  <body>
+   <!-- main container -->
+   <div id="calculator"> 
+  <!-- calculator display -->
+  <input id="screen" value="">
+  <div id="calculator_input">
+<!-- 1s row --> <!-- button copy 18 time -->
+<!-- now js onclick even function  -->
+<button id="clear" value=" " onclick="clr(document.querySelector('#clear').value)">C</button>
+<button id="sign" value="-+" onclick="vlu(document.querySelector('#sign').value)">±</button>
+<button id="divide" value="/" onclick="vlu(document.querySelector('#divide').value)">÷</button>
+<!-- 2nd row -->
+<button id="seven" value="7" onclick="vlu(document.querySelector('#seven').value)">7</button>
+<button id="eight" value="9" onclick="vlu(document.querySelector('#eight').value)">8</button>
+<button id="nin" value="9" onclick="vlu(document.querySelector('#nin').value)">9</button>
+<button id="multiply" value="*" onclick="vlu(document.querySelector('#multiply').value)">×</button>
+<!-- 3rd row -->
+<button id="four" value="4" onclick="vlu(document.querySelector('#four').value)">4</button>
+<button id="five" value="5" onclick="vlu(document.querySelector('#five').value)">5</button>
+<button id="six" value="6" onclick="vlu(document.querySelector('#six').value)">6</button>
+<button id="minus" value="-" onclick="vlu(document.querySelector('#minus').value)">-</button>
+<!-- 4th row -->
+<button id="one" value="1" onclick="vlu(document.querySelector('#one').value)">1</button>
+<button id="two" value="2" onclick="vlu(document.querySelector('#two').value)">2</button>
+<button id="three" value="3" onclick="vlu(document.querySelector('#three').value)">3</button>
+<button id="plus" value="+" onclick="vlu(document.querySelector('#plus').value)">+</button>
+<!-- 5th row -->
+<button id="zero" value="0" onclick="vlu(document.querySelector('#zero').value)">0</button>
+<button id="dote" value="." onclick="vlu(document.querySelector('#dote').value)">.</button>
+<button id="equal" value="=" onclick="equal(document.querySelector('#equal').value)">=</button>
+  </div>
+   </div>
+    <script src="pettyprogrammer.js"></script>
+  </body>
+</html>

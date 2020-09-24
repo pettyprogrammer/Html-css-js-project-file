@@ -1,0 +1,100 @@
+/* now body css part */
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: -webkit-radial-gradient(center,circle closest-corner,#353863 0%,#000 100%);
+}
+/* now calculator css part */
+#calculator{
+  width: 240px;
+  height: auto;
+  margin: 3% auto;
+  background: #ccc;
+  border-radius: 20px;
+  box-shadow: inset 0 0 12px #fff, inset 0px 1px #e6e6e6, 0 1px 1px #323643, inset 0px 1px #7b839b, 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+/* now calculator > screen css part */
+#calculator #screen{
+  width: 86%;
+  height: 54px;
+  margin: 20px 0px 0px 12px;
+  padding-right: 9px;
+  text-align: right;
+  border-radius: 6px;
+  border: 1px solid #6b6b6b;
+  font-size: 26px;
+  font: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  box-shadow: inset 0 0 10px #333, inset 0 1px 1px #0a0b0d, 0px 1px #e6e6e6;
+}
+/* now calculator > screen focus css part */
+#calculator #screen:focus{
+  outline: none;
+}
+/* now calculator > calculator_input css part */
+#calculator #calculator_input{
+  width: 220px;
+  margin: 12px;
+}
+/* now calculator > calculator_input > button css part */
+#calculator #calculator_input button{
+  width: 45px;
+  height: 45px;
+  padding: 0;
+  margin: 0px 0px 10px 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  color:#ccc;
+  font: 24px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  box-shadow: inset 0 0 10px #666, inset 0px 1px #bcd6ff, 0 1px 1px #323643;
+ background: #333;
+}
+/* now calculator > calculator_input > button active css part */
+#calculator #calculator_input button:active{
+  color:#fff;
+  border: 1px solid #333;
+  box-shadow: inset 0 1px 1px #000, 0px 1px #e6e6e6;
+}
+/* now calculator > calculator_input > button-clear css part */
+#calculator #calculator_input #clear{
+  width: 100px;
+  background-color:#d02200 ;
+  border: 1px solid #d02200;
+  box-shadow: inset 0 0 10px #f63, inset 0px 1px #bcd6ff, 0 1px 1px #323643;
+}
+/* now calculator > calculator_input > button-clear active css part */
+#calculator #calculator_input #clear:active{
+  border: 1px solid #d02200;
+  box-shadow: inset 0 1px 1px #0a0b0d, 0px 1px #e6e6e6;
+}
+/* now calculator > calculator_input > button-equal css part */
+#calculator #calculator_input #equal{
+  width: 100px;
+  background-color: #036;
+  border: 1px solid #036;
+  box-shadow: inset 0 0 10px #069, inset 0px 1px #bcd6ff, 0 1px 1px #323643;
+}
+/* now calculator > calculator_input > button-equal active css part */
+#calculator #calculator_input #equal:active{
+  border: 1px solid #039;
+  box-shadow: inset 0 1px 1px #0a0b0d, 0px 1px #e6e6e6;
+}
+/* now calculator > calculator_input > button-minus plus divide multiply css part 
+*/
+#calculator #calculator_input #divide,
+#calculator #calculator_input #multiply,
+#calculator #calculator_input #minus,
+#calculator #calculator_input #plus{
+  background-color: #036;
+  border: 1px solid #036;
+  box-shadow: inset 0 0 10px #069, inset 0px 1px #bcd6ff, 0 1px 1px #323643;
+}
+/* now calculator > calculator_input > button-minus plus divide multiply active css part */
+#calculator #calculator_input #divide:active,
+#calculator #calculator_input #multiply:active,
+#calculator #calculator_input #minus:active,
+#calculator #calculator_input #plus:active{
+  border: 1px solid #039;
+  box-shadow: inset 0 1px 1px #0a0b0d, 0px 1px #e6e6e6;
+}
